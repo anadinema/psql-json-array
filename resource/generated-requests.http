@@ -1,0 +1,36 @@
+###
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{
+  "firstName": "Someone",
+  "lastName": "Nema",
+  "email": "anadi.nema@org.com",
+  "status": "ENROLLED",
+  "courses": [
+    {
+      "name": "B. Tech.",
+      "description": "Bachelor of Technology"
+    }
+  ]
+}
+
+<> 2024-05-06T210112.200.json
+<> 2024-05-06T210111.200.json
+<> 2024-05-06T210110.200.json
+<> 2024-05-06T210108.200.json
+<> 2024-05-06T210106.200.json
+
+###
+GET http://localhost:8080/student/all
+
+<> 2024-05-06T210225.200.json
+
+###
+@id = 8
+GET http://localhost:8080/student/{{id}}
+
+<> 2024-05-06T210356.200.json
+<> 2024-05-06T210355.200.json
+<> 2024-05-06T210349.200.json
+<> 2024-05-06T210306.500.json
